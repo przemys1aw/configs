@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # 02/01/2021; przemys1aw; created
 
 ACONFFILES=(.editorconfig
