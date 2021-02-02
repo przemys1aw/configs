@@ -11,7 +11,7 @@ for CONFFILE in ${ACONFFILES[*]}; do
   if [[ -L "${HOME}/${CONFFILE}" ]]; then
     unlink ${HOME}/${CONFFILE} && echo "Unlinked ${CONFFILE}"
   elif [[ -f "${HOME}/${CONFFILE}" ]]; then
-    mv ${HOME}/${CONFFILE} ${HOME}/${CONFFILE}_$(date "+%Y%m%d%H%M%S") && "Moved original ${CONFFILE}"
+    mv ${HOME}/${CONFFILE} ${HOME}/${CONFFILE}_$(date "+%Y%m%d%H%M%S") && echo "Moved original ${CONFFILE}"
   else
     "Echo ${CONFFILE} not found"
   fi
