@@ -298,3 +298,12 @@ include "/usr/share/nano/*.nanorc"
 #bind ^U undo main
 #bind ^E redo main
 #set multibuffer
+
+# Colouring syntax included in standard package
+include "/usr/share/nano/sh.nanorc"
+include "/usr/share/nano/python.nanorc"
+
+# Colouring syntax hijacked from
+# https://github.com/serialhex/nano-highlight
+include "~/.nano/yaml.nanorc"
+include "~/.nano/markdown.nanorc"
