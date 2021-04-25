@@ -10,6 +10,9 @@ ACONFFILES=(.editorconfig
 SYNDIR=".nano"
 ASYNFILES=(yaml.nanorc
            markdown.nanorc
+					 c.nanorc
+					 python.nanorc
+					 sh.nanorc
           )
 
 for CONFFILE in ${ACONFFILES[*]}; do

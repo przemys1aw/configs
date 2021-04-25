@@ -159,7 +159,7 @@ set suspend
 set tabsize 2
 
 ## Convert typed tabs to spaces.
-set tabstospaces
+#set tabstospaces
 
 ## Save automatically on exit; don't prompt.
 # set tempfile
@@ -300,10 +300,16 @@ include "/usr/share/nano/*.nanorc"
 #set multibuffer
 
 # Colouring syntax included in standard package
-include "/usr/share/nano/sh.nanorc"
-include "/usr/share/nano/python.nanorc"
+include "~/.nano/c.nanorc"
 
 # Colouring syntax hijacked from
-# https://github.com/serialhex/nano-highlight
+#   https://github.com/serialhex/nano-highlight
 include "~/.nano/yaml.nanorc"
 include "~/.nano/markdown.nanorc"
+
+# Colouring syntax as included in the standard package
+# 	but with tabgives "  " setting
+include "~/.nano/python.nanorc"
+include "~/.nano/sh.nanorc"
+include "~/.nano/markdown.nanorc"
+include "~/.nano/yaml.nanorc"

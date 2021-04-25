@@ -37,3 +37,6 @@ color brightmagenta start="\[" end="\]"
 
 ## Lists
 color yellow "^( )*(\*|\+|\-|[0-9]+\.) "
+
+## Overriding default tabs
+tabgives "  "

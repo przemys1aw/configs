@@ -40,3 +40,6 @@ color yellow "['\"].*['\"]"
 
 ## Equal sign
 color brightgreen ":( |$)"
+
+## Overriding default tabs
+tabgives "  "
