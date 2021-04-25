@@ -41,6 +41,3 @@ color brightwhite,yellow "\<(FIXME|TODO|XXX)\>"
 
 # Trailing whitespace.
 color ,green "[[:space:]]+$"
-
-# Tabs to space off
-#set tabstospaces
